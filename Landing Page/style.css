@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+body > * {
+    padding: 0 8vw;
+    font-family: roboto;
+    color: #F9FAF8;
+    flex: 1;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.header > h1 {
+    font-size: 24px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.container {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+    padding-bottom: 8rem;
+    gap: 3rem;
+}
+
+.text {
+    width: 360px;
+}
+
+.text > h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.text > p {
+    font-size: 18px;
+}
+
+.img {
+    align-self: center;
+    overflow: hidden;
+}
+
+.signup-one {
+    padding: 8px 2rem;
+    background-color: #3882F6;
+    border-radius: 0.5rem;
+    color: #F9FAF8;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 8rem;
+    flex-wrap: wrap;
+    
+}
+
+.info > h1 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    color: gray;
+    gap: 6vw; 
+    flex-wrap: wrap;  
+}
+
+.card {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.card > img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border: 3px solid black;
+    border-radius: 1rem;
+    margin-bottom: 8px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8rem 0;
+    
+}
+
+.quote {
+    color: #1F2937;
+    font: light italic;
+    font-size: 36px;
+    margin-right: auto;
+}
+
+.ref {
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 8px;
+}
+
+.bottom-container {
+    display: flex;
+    background-color: #3882F6;
+    margin: 8rem 16rem;
+    padding: 1rem 4rem;
+    justify-content: space-between;
+}
+
+.bottom-container > button {
+    color: #e5e7eb;
+    border-color: white;
+    background-color: #3882F6;
+    padding: 8px 3rem;
+    align-self: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 2rem;
+}
