@@ -1,2 +1,1 @@
-# The-Odin-Project
-My projects from the free open-source curriculum The Odin Project which covers essential web development technologies. I plan to update this repo as I progress.
+An assignment in The Odin Project curriculum. A simple static HTML and CSS webpage to practice my flexbox knowledge.
